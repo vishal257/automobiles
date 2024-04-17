@@ -14,7 +14,7 @@ export default function Navbar() {
       </div>
       <nav className="grid sm:justify-items-center py-5">
         <ul className="uppercase gap-12 sm:flex block rsm:space-y-4 items-center">
-          <li className="bg-red-800 p-4 hover:bg-red-900">
+          <li className="bg-red-800 py-3 px-6 hover:bg-red-900">
             <Link href="/appointment">Schedule An Appointment</Link>
           </li>
           <li className="hover:text-yellow-500">
