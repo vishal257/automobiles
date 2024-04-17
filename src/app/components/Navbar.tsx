@@ -1,14 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
+import imageUrl from "../../../public/banner.jpeg"
 
 export default function Navbar() {
   return (
     <div className="bg-black text-white font-bold">
       <div className="text-center overflow-hidden h-44 relative">
         <Image
-          src="/banner.jpeg"
+          src={imageUrl}
           alt="header banner"
           fill
+          placeholder="blur"
           style={{ objectFit: "cover"}}
         ></Image>
       </div>
