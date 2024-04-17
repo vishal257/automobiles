@@ -20,7 +20,7 @@ export default function Home() {
         <div className="font-extrabold text-4xl">
           503-221-2411 • MONDAY - FRIDAY 7:00AM to 5:30PM
         </div>
-        <div>
+        <div className="pt-4">
           <button className="bg-red-800 text-white font-bold text-2xl py-2 px-8 hover:bg-stone-500 rounded-md">
             <Link href="/appointment">
               Schedule an Appointment
