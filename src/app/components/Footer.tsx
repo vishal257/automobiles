@@ -1,9 +1,19 @@
+import Image from "next/image";
 import Link from "next/link";
+import imageUrl from "../../../public/about.jpg";
 
 export default function Footer() {
   return (
-    <div className="bg-red-800 font-bold uppercase h-80 grid items-center p-4 rsm:h-60">
-      <div className="flex md:gap-24 gap-12 md:tracking-wider justify-center leading-10 rsm:leading-6 rsm:tracking-tight rsm:text-sm">
+    <div className="bg-red-800 font-bold uppercase h-80 grid items-center justify-items-center p-4 rsm:h-60 relative">
+      <Image
+        src={imageUrl}
+        alt="aboutImg"
+        fill
+        placeholder="blur"
+        style={{ objectFit: "cover", objectPosition:'center 80%'}}
+        quality={100}
+      ></Image>
+      <div className="flex md:gap-24 gap-12 rsm:px-4 md:tracking-wider justify-center leading-10 rsm:leading-6 rsm:tracking-tight rsm:text-sm absolute">
         <div className="h-full">
           <div className="text-stone-300">Quick Links</div>
           <ul className="text-white">

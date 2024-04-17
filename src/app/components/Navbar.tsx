@@ -19,13 +19,13 @@ export default function Navbar() {
           <li className="bg-red-800 py-3 px-6 hover:bg-red-900">
             <Link href="/appointment">Schedule An Appointment</Link>
           </li>
-          <li className="hover:text-yellow-500">
+          <li className="hover:text-yellow-500 px-4">
             <Link href="/services">Services</Link>
           </li>
-          <li className="hover:text-yellow-500">
+          <li className="hover:text-yellow-500 px-4">
             <Link href="/about">About</Link>
           </li>
-          <li className="hover:text-yellow-500">
+          <li className="hover:text-yellow-500 px-4">
             <Link href="/contact">Contact</Link>
           </li>
         </ul>
