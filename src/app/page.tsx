@@ -1,5 +1,6 @@
 import Image from "next/image";
 import imageUrl from "../../public/hero-banner.jpg";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -21,7 +22,9 @@ export default function Home() {
         </div>
         <div>
           <button className="bg-red-800 text-white font-bold text-2xl py-2 px-8 hover:bg-stone-500 rounded-md">
-            Schedule an Appointment
+            <Link href="/appointment">
+              Schedule an Appointment
+            </Link>
           </button>
         </div>
       </div>
