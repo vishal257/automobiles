@@ -20,13 +20,13 @@ export default function Navbar() {
             <Link href="/appointment">Schedule An Appointment</Link>
           </li>
           <li className="hover:text-yellow-500 px-4">
+            <Link href="/">Home</Link>
+          </li>
+          <li className="hover:text-yellow-500 px-4">
             <Link href="/services">Services</Link>
           </li>
           <li className="hover:text-yellow-500 px-4">
             <Link href="/about">About</Link>
-          </li>
-          <li className="hover:text-yellow-500 px-4">
-            <Link href="/contact">Contact</Link>
           </li>
         </ul>
       </nav>
