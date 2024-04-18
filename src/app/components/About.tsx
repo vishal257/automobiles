@@ -13,7 +13,7 @@ interface Props {
 export default function About({ Data, visible }: Props) {
   const { title, p1, p2, p3 } = Data;
   return (
-    <div className="p-4 w-2/3 rsm:w-5/6 rsm:p-0 mx-auto space-y-6 mt-6 pb-14">
+    <div className="p-4 w-9/12 rsm:w-5/6 rsm:p-0 mx-auto space-y-6 mt-6 pb-14 text-slate-800">
       <div className="font-black text-4xl text-center">{title}</div>
       <div className="text-justify space-y-4 leading-8 rsm:leading-6">
         <p>{p1}</p>
