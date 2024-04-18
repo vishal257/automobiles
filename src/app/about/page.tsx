@@ -44,20 +44,21 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div className="w-9/12 mx-auto text-center space-y-2 pt-6 text-slate-800">
-        <div className="uppercase text-4xl font-black">OUR CAR REPAIR PROMISE:</div>
-        <p className="font-black text-3xl leading-8">As your Portland, Oregon mechanic we promise to provide honest, convenient & quality car repair and maintenance services, with our primary goal being safe, happy customers & long-lasting life and performance for your car.</p>
+      <div className="w-9/12 mx-auto text-center space-y-2 pt-6 text-slate-800 rsm:w-11/12">
+        <div className="uppercase text-4xl font-black rsm:text-2xl">OUR CAR REPAIR PROMISE:</div>
+        <p className="font-black text-3xl leading-8 rsm:text-xl text-slate-700 rsm:text-justify">As your Portland, Oregon mechanic we promise to provide honest, convenient & quality car repair and maintenance services, with our primary goal being safe, happy customers & long-lasting life and performance for your car.</p>
       </div>
+      <hr className="border-2 w-9/12 mx-auto my-8"></hr>
       <About Data={aboutData1} visible={false} />
-      <div className="w-9/12 mx-auto space-y-6">
-        <div className="font-black text-4xl text-center text-slate-800">
+      <div className="w-9/12 mx-auto space-y-6 rsm:pt-6 rsm:w-11/12">
+        <div className="font-black text-4xl text-center text-slate-800 rsm:text-2xl">
           We understand that trust is the most important criteria when choosing
           an auto repair company and we pride ourselves on honest and dependable
           services.
         </div>
         <hr className="border-2"></hr>
       </div>
-      <div className="relative h-96 mt-12 w-4/5 mx-auto">
+      <div className="relative h-96 mt-12 w-4/5 mx-auto rsm:w-11/12 rsm:h-60">
         <Image src={randomUrl} alt="pic" placeholder="blur" fill sizes="100%" quality={100} style={{objectFit:'cover'}}></Image>
       </div>
       <About Data={aboutData2} visible={true} />
