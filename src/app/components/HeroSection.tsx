@@ -1,6 +1,6 @@
 import Image from "next/image";
 import imageUrl from "../../../public/hero-banner.jpg";
-import Link from "next/link";
+import Button from "./Button";
 
 export default function HeroSection(){
     return(
@@ -21,11 +21,7 @@ export default function HeroSection(){
             503-221-2411 • MONDAY - FRIDAY 7:00AM to 5:30PM
           </div>
           <div className="pt-4">
-            <button className="bg-red-800 text-white font-bold md:text-2xl sm:text-xl text-md py-2 px-8 hover:bg-stone-500 rounded-md">
-              <Link href="/appointment">
-                Schedule an Appointment
-              </Link>
-            </button>
+            <Button/>
           </div>
         </div>
       </div>
