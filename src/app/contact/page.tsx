@@ -28,48 +28,48 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div className="text-center space-y-6 p-8 w-4/5 mx-auto">
-        <div className="uppercase text-5xl font-black">
+      <div className="text-center space-y-6 p-8 w-4/5 mx-auto rsm:p4 rsm:w-11/12">
+        <div className="uppercase text-5xl font-black rsm:text-3xl">
           HOW TO FIND Satyam Automobile Engineer's
         </div>
-        <div className="text-3xl font-black">
+        <div className="text-3xl font-black rsm:text-xl">
           509 NW Everett Street • Portland, OR 97209
         </div>
       </div>
       <div className="flex w-3/4 gap-8 justify-center mx-auto pb-16 pt-4">
-        <div className="w-1/2">
-          <div>
-            <div>Transportation Options:</div>
+        <div className="w-1/2 rsm:w-full">
+          <div className="leading-7">
+            <div className="font-black text-4xl pb-4 rsm:text-2xl">Transportation Options:</div>
             <p>
               Our shop is conveniently located in Portland’s Old Town district.
             </p>
             <p>Transportation options include:</p>
-            <ul className="list-disc">
+            <ul className="list-disc py-3">
               <li>
-                <span>Courtesy shuttle service</span> – when you book your
+                <span className="font-bold">Courtesy shuttle service</span> – when you book your
                 appointment, ask about our downtown shuttle service
               </li>
               <li>
-                <span>Loaner cars</span> – will your repair require us to keep
+                <span className="font-bold">Loaner cars</span> – will your repair require us to keep
                 your vehicle for longer than a day? Ask us about our loaner car
                 service options.
               </li>
             </ul>
           </div>
-          <div>
-            <div>Mass transit</div>
+          <div className="leading-7">
+            <div className="font-black text-4xl py-2 rsm:text-2xl">Mass transit</div>
             <p>
               Our shop is conveniently located in Portland’s Old Town district.
             </p>
             <p>Transportation options include:</p>
-            <ul className="list-disc">
+            <ul className="list-disc py-3">
               <li>
-                <span>CMax Train: </span>Green and Yellow lines run in front of
+                <span className="font-bold">CMax Train: </span>Green and Yellow lines run in front of
                 our shop on NW 5th avenue with stops on both Glisan and Couch
               </li>
               <li>
-                <span>Bus Lines:</span>
-                <ul className="list-disc">
+                <span className="font-bold">Bus Lines:</span>
+                <ul className="list-disc list-inside">
                   <li>
                     East down Everett [bus numbers: 4, 8, 16, 35, 43, 44, 77];
                     stops at Everett & 5th, across Everett from our shop
@@ -83,7 +83,7 @@ export default function page() {
             </ul>
           </div>
         </div>
-        <div className="relative w-1/2">
+        <div className="relative w-1/2 rsm:hidden">
           <div className="relative h-full">
             <Image
               src={imageUrl2}
