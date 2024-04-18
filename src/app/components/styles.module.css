@@ -1,0 +1,13 @@
+.scaleHover:hover{
+    color: rgb(253 224 71);
+}
+
+.scaleHover:hover img{
+    transform: scale(1.25);
+    filter: blur(1px);
+}
+
+.scaleHover:hover .hoverBox{
+    transform: scale(1.1);
+    transition: transform .08s linear, color .01s linear;
+}

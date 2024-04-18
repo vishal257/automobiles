@@ -3,6 +3,8 @@ import contactUrl from "../../../public/contact1.jpg";
 import aboutUrl from "../../../public/about1.jpg";
 import servicesUrl from "../../../public/services1.jpg";
 import bgImgUrl from "../../../public/background.jpg";
+import Link from "next/link";
+import style from './styles.module.css';
 
 export default function Testimonial() {
   return (
@@ -18,8 +20,9 @@ export default function Testimonial() {
           style={{ objectFit: "cover", filter: 'blur(2px)' }}
         ></Image>
       <div className="flex text-center gap-2 rmd:flex-wrap  relative z-10 text-white">
-        <div className="cards rsm:w-full rmd:3/6">
-          <div className="relative h-80">
+        <div className={`cards rsm:w-full rmd:3/6 ${style.scaleHover} overflow-hidden`}>
+          <Link href="/contact">
+          <div className="relative h-80 overflow-hidden">
             <Image
               src={contactUrl}
               alt="contact"
@@ -31,7 +34,7 @@ export default function Testimonial() {
               style={{ objectFit: "cover" }}
             ></Image>
           </div>
-          <div className="space-y-2 divide-solid p-6">
+          <div className={`space-y-2 divide-solid p-6 ${style.hoverBox}`}>
             <h1 className="uppercase font-black text-3xl">Where we are</h1>
             <hr className="border-2 border-slate-100 w-11/12 mx-auto"></hr>
             <div className="">
@@ -39,12 +42,15 @@ export default function Testimonial() {
               drop off your car for maintenance, repair or tires while you work.
             </div>
           </div>
+          </Link>
         </div>
-        <div className="cards rsm:w-full rmd:3/6">
-          <div className="relative h-80">
+        <div className={`cards rsm:w-full rmd:3/6 ${style.scaleHover} overflow-hidden`}>
+          <Link href="/about">
+          <div className="relative h-80 overflow-hidden">
             <Image
               src={aboutUrl}
               alt="contact"
+              className=" hover:scale-125"
               placeholder="blur"
               draggable="false"
               sizes="100%"
@@ -53,7 +59,7 @@ export default function Testimonial() {
               style={{ objectFit: "cover" }}
             ></Image>
           </div>
-          <div className="space-y-2 divide-solid p-6">
+          <div className={`space-y-2 divide-solid p-6 ${style.hoverBox}`}>
             <h1 className="uppercase font-black text-3xl">WHo WE are</h1>
             <hr className="border-2 border-slate-100 w-11/12 mx-auto"></hr>
             <div className="">
@@ -61,12 +67,15 @@ export default function Testimonial() {
               drop off your car for maintenance, repair or tires while you work.
             </div>
           </div>
+          </Link>
         </div>
-        <div className="cards rsm:w-full rmd:3/6">
-          <div className="relative h-80">
+        <div className={`cards rsm:w-full rmd:3/6 ${style.scaleHover} overflow-hidden`}>
+          <Link href="/services">
+          <div className="relative h-80 overflow-hidden">
             <Image
               src={servicesUrl}
               alt="contact"
+              className=" hover:scale-125"
               placeholder="blur"
               draggable="false"
               fill
@@ -75,7 +84,7 @@ export default function Testimonial() {
               style={{ objectFit: "cover" }}
             ></Image>
           </div>
-          <div className="space-y-2 divide-solid p-6">
+          <div className={`space-y-2 divide-solid p-6 ${style.hoverBox}`}>
             <h1 className="uppercase font-black text-3xl">WHAT WE DO</h1>
             <hr className="border-2 border-slate-100 w-11/12 mx-auto"></hr>
             <div className="">
@@ -83,6 +92,7 @@ export default function Testimonial() {
               drop off your car for maintenance, repair or tires while you work.
             </div>
           </div>
+          </Link>
         </div>
       </div>
     </div>
