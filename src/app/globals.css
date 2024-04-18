@@ -26,3 +26,9 @@
     text-wrap: balance;
   }
 }
+
+@layer components {
+  .cards{
+    @apply w-2/6 flex-grow border-white border-solid border-2;
+  }
+}

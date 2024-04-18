@@ -14,7 +14,7 @@ export default function Navbar() {
           style={{ objectFit: "cover"}}
         ></Image>
       </div>
-      <nav className="grid sm:justify-items-center py-5">
+      <nav className="grid sm:justify-items-center py-5 relative w-full bg-black z-50">
         <ul className="uppercase gap-12 sm:flex block rsm:space-y-4 items-center">
           <li className="bg-red-800 py-3 px-6 hover:bg-red-900 sm:ms-4">
             <Link href="/appointment">Schedule An Appointment</Link>

@@ -7,7 +7,6 @@ import bgImgUrl from "../../../public/background.jpg";
 export default function Testimonial() {
   return (
     <div className="p-2 pt-4 pb-6 relative">
-      <div className="-z-10">
         <Image
           src={bgImgUrl}
           alt="bg-Img"
@@ -15,12 +14,11 @@ export default function Testimonial() {
           placeholder="blur"
           quality={80}
           fill
+          sizes="100%"
           style={{ objectFit: "cover", filter: 'blur(2px)' }}
         ></Image>
-      </div>
-
       <div className="flex text-center gap-2 rmd:flex-wrap  relative z-10 text-white">
-        <div className="w-2/6 rmd:3/6 flex-grow rsm:w-full">
+        <div className="cards rsm:w-full rmd:3/6">
           <div className="relative h-80">
             <Image
               src={contactUrl}
@@ -28,6 +26,7 @@ export default function Testimonial() {
               placeholder="blur"
               draggable="false"
               fill
+              sizes="100%"
               quality={100}
               style={{ objectFit: "cover" }}
             ></Image>
@@ -41,13 +40,14 @@ export default function Testimonial() {
             </div>
           </div>
         </div>
-        <div className="w-2/6 rmd:3/6 flex-grow rsm:w-full">
+        <div className="cards rsm:w-full rmd:3/6">
           <div className="relative h-80">
             <Image
               src={aboutUrl}
               alt="contact"
               placeholder="blur"
               draggable="false"
+              sizes="100%"
               fill
               quality={100}
               style={{ objectFit: "cover" }}
@@ -62,7 +62,7 @@ export default function Testimonial() {
             </div>
           </div>
         </div>
-        <div className="w-2/6 rmd:3/6 flex-grow rsm:w-full">
+        <div className="cards rsm:w-full rmd:3/6">
           <div className="relative h-80">
             <Image
               src={servicesUrl}
@@ -70,6 +70,7 @@ export default function Testimonial() {
               placeholder="blur"
               draggable="false"
               fill
+              sizes="100%"
               quality={100}
               style={{ objectFit: "cover" }}
             ></Image>

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import HeroSection from "./components/HeroSection";
 import Testimonial from "./components/Testimonial";
+import About from "./components/About";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         </div>
       </div>
       <Testimonial/>
+      <About/>
     </>
 
   );
