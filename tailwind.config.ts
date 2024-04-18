@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       screens:{
         'rsm': {'max': '639px'},
+        'rmd': {'max': '900px'}
       }
     },
   },
