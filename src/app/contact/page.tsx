@@ -2,8 +2,15 @@ import Image from "next/image";
 import Button from "../components/Button";
 import imageUrl from "../../../public/contactUs.jpg";
 import imageUrl2 from "../../../public/contact1.jpg";
+import About from "../components/About";
 
 export default function page() {
+  const aboutData = {
+    title: "About Satyam Automobile Engineers",
+    p1: "Established in 2001, Everett Street Autoworks is a locally owned and operated auto repair facility in Portland, Oregon. We work on both foreign and domestic vehicles — from routine maintenance such as an oil change or tune-up to repairs for major damage such engine rebuilds or transmission repair.  and has become one of the largest auto repair shops in downtown Portland. Every day, Everett Street Autoworks strives to be the best mechanic in Portland with a guarantee of satisfaction. We pride ourselves with same day service on most auto repairs and are proud to be an AAA Approved auto repair facility. Our auto repair technicians all hold ASE Certifications and have over 200 years of combined experience.",
+    p2: "Many of our customers come downtown from the Pearl, NW Portland, and SE Portland neighborhoods. We offer complimentary shuttle service for those who need it – provided by Lyft. If your auto repair job will take longer than you expected, or longer than we anticipated, let us know – Sometimes we have extra tickets to movies and sporting events to help you pass the time with a smile on your face. We’re known for being one of Portland’s most trusted auto mechanics! We now offer professional tire service with Point S!",
+    p3: "",
+  };
   return (
     <div>
       <div className="pb-10">
@@ -95,6 +102,10 @@ export default function page() {
             ></Image>
           </div>
         </div>
+      </div>
+      <div>
+        <hr className="border-2 w-3/4 mx-auto"></hr>
+        <About Data={aboutData} visible={false}></About>
       </div>
     </div>
   );
