@@ -3,7 +3,7 @@ export default function page() {
     <div className="p-6 pb-12 w-3/4 mx-auto rmd:w-full text-slate-700">
         <div>
             <div className="privacy text-6xl text-slate-900">Privacy Policy</div>
-            <p>Our website address is: https://www.esautoworks.com.</p>
+            <p>Our website address is: https://vishal257.github.io/portfolio/index.html</p>
         </div>
         <div className="py-5">
             <div className="privacy">What personal data we collect and why we collect it</div>
