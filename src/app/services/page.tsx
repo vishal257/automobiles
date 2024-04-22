@@ -36,8 +36,8 @@ export default function page() {
         </div>
       </div>
       <div className="text-center space-y-4 w-3/4 mx-auto py-8">
-        <div className="font-black text-5xl">Vishal Automobile Engineer's</div>
-        <div className="font-black text-3xl">
+        <div className="font-black text-5xl rmd:text-4xl">Vishal Automobile Engineer's</div>
+        <div className="font-black text-3xl rmd:text-2xl">
           Trust Everett Street Autoworks to handle any automotive repair in
           Portland.
         </div>
@@ -52,10 +52,10 @@ export default function page() {
         </div>
       </div>
       <div className="text-center">
-        <div className="uppercase font-black text-4xl pt-4">
+        <div className="uppercase font-black text-4xl pt-4 rmd:text-3xl">
           Our AUTO REPAIR services include:
         </div>
-        <div className="flex text-left justify-around pt-8 w-3/4 mx-auto pb-14">
+        <div className="flex flex-wrap text-left justify-around pt-8 w-3/4 mx-auto pb-14">
           <div className="">
             <ul className="list-disc list-inside">
               <li>Air conditioning & heating repairs</li>
@@ -103,14 +103,14 @@ export default function page() {
         </div>
         <div className="w-3/4 mx-auto space-y-5">
           <hr className="border border-red-400"></hr>
-          <div className="text-4xl font-black">We understand that trust is the most important criteria when choosing an auto repair company and we pride ourselves on honest and dependable services.</div>
+          <div className="text-4xl font-black rmd:text-3xl">We understand that trust is the most important criteria when choosing an auto repair company and we pride ourselves on honest and dependable services.</div>
           <hr className="border border-red-400"></hr>
         </div>
         <div className="space-y-5 py-8 w-3/4 mx-auto">
-          <div className="text-3xl font-black">509 NW Everett Street • Portland, OR 97209 • 503-221-2411</div>
+          <div className="text-3xl font-black rmd:text-2xl">509 NW Everett Street • Portland, OR 97209 • 503-221-2411</div>
           <hr className="border border-red-400"></hr>
         </div>
-        <div>
+        <div className="py-5">
           <About Data={aboutData} visible={true}/>
         </div>
       </div>
