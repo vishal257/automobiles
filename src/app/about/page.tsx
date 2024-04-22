@@ -53,7 +53,7 @@ export default function page() {
       <div className="w-9/12 mx-auto space-y-6 rsm:pt-6 rsm:w-11/12">
         <div className="font-black text-4xl text-center text-slate-800 rsm:text-2xl">
           We understand that trust is the most important criteria when choosing
-          an auto repair company and we pride ourselves on honest and dependable
+          an auto repair company and we pride ourselves on honest and dependab
           services.
         </div>
         <hr className="border-2"></hr>
