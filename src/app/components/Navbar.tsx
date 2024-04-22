@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import imageUrl from "../../../public/banner.jpeg"
+// import imageUrl from "../../../public/banner.jpeg"
+import imageUrl from "../../../public/banner.jpg"
 
 export default function Navbar() {
   return (
