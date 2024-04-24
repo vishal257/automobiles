@@ -18,13 +18,16 @@ export default function Navbar() {
       <nav className="grid sm:justify-items-center py-5 relative w-full bg-black z-50">
         <ul className="uppercase gap-12 sm:flex block rsm:space-y-4 items-center">
           <li className="bg-red-800 py-3 px-6 hover:bg-red-900 sm:ms-4">
-            <Link href="/contact">Schedule An Appointment</Link>
+            <Link href="/appointment">Schedule An Appointment</Link>
           </li>
           <li className="hover:text-yellow-500 px-4">
             <Link href="/">Home</Link>
           </li>
           <li className="hover:text-yellow-500 px-4">
             <Link href="/services">Services</Link>
+          </li>
+          <li className="hover:text-yellow-500 px-4">
+            <Link href="/contact">Contact Us</Link>
           </li>
           <li className="hover:text-yellow-500 px-4">
             <Link href="/about">About</Link>

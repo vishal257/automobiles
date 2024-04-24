@@ -29,7 +29,7 @@ export default function Home() {
           </div>
           <div className="uppercase pt-4">
             <button className="bg-red-800 px-6 py-2 font-bold text-white text-xl hover:bg-red-900">
-              <Link href="/contact">Schedule an appointment</Link>
+              <Link href="/appointment">Schedule an appointment</Link>
             </button>
           </div>
         </div>
