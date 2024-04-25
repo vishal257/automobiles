@@ -8,14 +8,22 @@ export default function Page() {
         <div>Popular Services</div>
         <div>
             <form>
-                <input type="checkbox" name="Brakes">Brakes</input>
-                <input type="checkbox" name="Brakes">Oil Change</input>
-                <input type="checkbox" name="Brakes">Vehicle Inspection</input>
-                <input type="checkbox" name="Brakes">Tires</input>
-                <input type="checkbox" name="Brakes">Battery</input>
-                <input type="checkbox" name="Brakes">Engine & Transmission</input>
-                <input type="checkbox" name="Brakes">Heat or A/C</input>
-                <input type="checkbox" name="Brakes">Schedule Maintenance</input>
+                <label htmlFor="Brakes">Brakes</label>
+                <input type="checkbox" name="Brakes"></input>
+                <label htmlFor="Oil Change">Brakes</label>
+                <input type="checkbox" name="Oil Change"></input>
+                <label htmlFor="VehicleInspection">Vehicle Inspection</label>
+                <input type="checkbox" name="VehicleInspection"></input>
+                <label htmlFor="Tires">Tires</label>
+                <input type="checkbox" name="Tires"></input>
+                <label htmlFor="Battery">Battery</label>
+                <input type="checkbox" name="Battery"></input>
+                <label htmlFor="EngineTransmission">Engine & Transmission</label>
+                <input type="checkbox" name="EngineTransmission"></input>
+                <label htmlFor="HeatAC">Heat or A/C</label>
+                <input type="checkbox" name="HeatAC"></input>
+                <label htmlFor="ScheduleMaintenance">Schedule Maintenance</label>
+                <input type="checkbox" name="ScheduleMaintenance"></input>
             </form>
         </div>
       </div>
