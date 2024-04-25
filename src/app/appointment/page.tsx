@@ -96,6 +96,26 @@ export default function Page() {
             </div>
           </form>
         </div>
+        <div>
+            <div className="font-extrabold text-3xl py-5">Select your own service</div>
+            <div className="font-medium text-xl text-left">
+                <form className="grid md:grid-cols-2 grid-cols-1 gap-4 w-8/12 mx-auto">
+                    <div className="bg-slate-200 p-5 rounded-lg grid grid-cols-2 justify-between">
+                        <label htmlFor="describeIssue" className="justify-self-start xl:whitespace-nowrap">Describe Your Issue</label>
+                        <input type="checkbox" name="describeIssue" className="justify-self-end size-6"></input>
+                    </div>
+                    <div className="bg-slate-200 p-5 rounded-lg grid grid-cols-2 justify-between">
+                        <label htmlFor="selectPart" className="justify-self-start xl:whitespace-nowrap">Select Specific Part</label>
+                        <input type="checkbox" name="selectPart" className="justify-self-end size-6"></input>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div className="py-5 font-semibold text-lg w-2/3 mx-auto">
+            <div className="text-right">
+                <button className="bg-slate-200 py-4 px-12 rounded-xl hover:bg-red-400 hover:text-white">Next</button>
+            </div>
+        </div>
       </div>
     </div>
   );
