@@ -1,3 +1,19 @@
+function FormData(){
+  return(
+    <div className="bg-slate-200 p-5 rounded-lg grid grid-cols-2 justify-between">
+    <label htmlFor="Brakes" className="justify-self-start">
+      Brakes
+    </label>
+    <input
+      type="checkbox"
+      name="Brakes"
+      className="justify-self-end size-6"
+    ></input>
+    </div>
+  )
+}
+
+
 export default function Page() {
   return (
     <div className="text-center py-8 w-3/4 mx-auto">
@@ -18,6 +34,7 @@ export default function Page() {
                 className="justify-self-end size-6"
               ></input>
             </div>
+            <FormData/>
             <div className="bg-slate-200 p-5 rounded-lg grid grid-cols-2 justify-between">
               <label htmlFor="OilChange" className="justify-self-start">
                 Oil Change
