@@ -1,17 +1,31 @@
+'use client'
+
+import { useRef } from "react";
+
 interface FormDataProps{
   label:string,
   labelName:string,
-  func:(event:React.MouseEvent<HTMLDivElement>) => void
+  func:(checked:boolean) => void
 }
 
 
 function FormData({label, labelName, func}:FormDataProps){
+  const ref = useRef<HTMLInputElement>(null);
+
+  function clickHandler(){
+    if(ref.current){
+      ref.current.checked = !ref.current.checked;
+      func(ref.current.checked);
+    }
+  }
+
   return(
-    <div className="bg-slate-200 p-5 rounded-lg grid grid-cols-2 justify-between cursor-pointer" onClick={func}>
+    <div className="bg-slate-200 p-5 rounded-lg grid grid-cols-2 justify-between cursor-pointer" onClick={clickHandler}>
     <label htmlFor={labelName} className="justify-self-start">
       {label}
     </label>
     <input
+      ref={ref}
       type="checkbox"
       name={labelName}
       className="justify-self-end size-6"
@@ -22,8 +36,8 @@ function FormData({label, labelName, func}:FormDataProps){
 
 
 export default function Page() {
-  function formChecker(){
-    return 0;
+  function formChecker(isChecked:boolean){
+    console.log(`checkbox is checked: ${isChecked}`);
   }
   return (
     <div className="text-center py-8 w-3/4 mx-auto">
@@ -61,7 +75,7 @@ export default function Page() {
         </div>
         <div className="py-5 font-semibold text-lg w-2/3 mx-auto">
             <div className="text-right">
-                <button className="bg-slate-200 py-4 px-12 rounded-xl hover:bg-red-400 hover:text-white">Next</button>
+                <button className="bg-slate-200 py-4 px-12 rounded-xl hover:bg-red-400 hover:text-white" type="submit">Next</button>
             </div>
         </div>
       </div>
