@@ -16,7 +16,7 @@ export default function HeroSection(){
           ></Image>
         </div>
         <div className="uppercase grid justify-items-center gap-2 absolute place-self-center text-stone-100 p-4">
-          <div className="font-black md:text-5xl sm:text-4xl sxm:text-xl text-lg">Vishal Auto Repair Shop</div>
+          <div className="font-black md:text-5xl sm:text-4xl sxm:text-xl text-lg">Satyam Auto Repair Shop</div>
           <div className="font-extrabold md:text-4xl sm:text-3xl text-lg text-center">
             503-221-2411 • MONDAY - FRIDAY 7:00AM to 5:30PM
           </div>

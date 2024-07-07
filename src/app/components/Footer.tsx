@@ -35,7 +35,7 @@ export default function Footer() {
           <div className="text-stone-300">Contact Us</div>
           <ul className="text-yellow-500">
             <li>
-              <Link href="mailto:Vishal@gmail.com">Vishal@gmail.com</Link>
+              <Link href="mailto:satyam@gmail.com">satyam@gmail.com</Link>
             </li>
             <li>
               <Link href="tel:123456">3522525235</Link>
