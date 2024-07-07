@@ -37,7 +37,7 @@ export default function page() {
       </div>
       <div className="text-center space-y-6 p-8 w-4/5 mx-auto rsm:p4 rsm:w-11/12">
         <div className="uppercase text-5xl font-black rsm:text-3xl">
-          HOW TO FIND Satyam Automobile Engineer's
+          HOW TO FIND Satyam Automobile Engineers
         </div>
         <div className="text-3xl font-black rsm:text-xl">
           509 NW Everett Street • Portland, OR 97209

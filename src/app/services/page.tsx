@@ -36,7 +36,7 @@ export default function page() {
         </div>
       </div>
       <div className="text-center space-y-4 w-3/4 mx-auto py-8">
-        <div className="font-black text-5xl rmd:text-4xl">Satyam Automobile Engineer's</div>
+        <div className="font-black text-5xl rmd:text-4xl">Satyam Automobile Engineers</div>
         <div className="font-black text-3xl rmd:text-2xl">
           Trust Satyam Autoworks to handle any automotive repair in
           Portland.
