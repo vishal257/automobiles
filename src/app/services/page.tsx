@@ -2,6 +2,7 @@ import Image from "next/image";
 import Button from "../components/Button";
 import imageUrl from "../../../public/background.jpg";
 import About from "../components/About";
+import FloatingContact from "../components/FloatingContact";
 
 export default function page() {
   const aboutData = {
@@ -28,7 +29,7 @@ export default function page() {
             Satyam Auto Repair Shop
           </div>
           <div className="font-extrabold md:text-4xl sm:text-3xl text-lg text-center">
-            95923-48990 • MONDAY - FRIDAY 7:00AM to 5:30PM
+            01886-297885 • MONDAY - FRIDAY 7:00AM to 5:30PM
           </div>
           <div className="pt-4">
             <Button />
@@ -107,13 +108,14 @@ export default function page() {
           <hr className="border border-red-400"></hr>
         </div>
         <div className="space-y-5 py-8 w-3/4 mx-auto">
-          <div className="text-3xl font-black rmd:text-2xl">Near Hira Colony, Dholwaha Road, Distt- Hoshiarpur • Punjab, India• 95923-48990</div>
+          <div className="text-3xl font-black rmd:text-2xl">Near Hira Colony, Dholwaha Road, Distt- Hoshiarpur • Punjab, India• 01886-297885</div>
           <hr className="border border-red-400"></hr>
         </div>
         <div className="py-5">
           <About Data={aboutData} visible={true}/>
         </div>
       </div>
+      <FloatingContact/>
     </div>
   );
 }

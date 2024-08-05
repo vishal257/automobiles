@@ -1,3 +1,5 @@
+import FloatingContact from "../components/FloatingContact";
+
 export default function page() {
   return (
     <div className="p-6 pb-12 w-3/4 mx-auto rmd:w-full text-slate-700">
@@ -42,6 +44,7 @@ export default function page() {
             <div className="privacy py-6">Where we send your data</div>
             <p>Visitor comments may be checked through an automated spam detection service.</p>
         </div>
+        <FloatingContact/>
     </div>
   )
 }

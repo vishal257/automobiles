@@ -2,6 +2,7 @@ import Link from "next/link";
 import HeroSection from "./components/HeroSection";
 import Testimonial from "./components/Testimonial";
 import About from "./components/About";
+import FloatingContact from "./components/FloatingContact";
 
 export default function Home() {
   const aboutData = {
@@ -33,6 +34,7 @@ export default function Home() {
       </div>
       <Testimonial />
       <About Data={aboutData} visible={true} />
+      <FloatingContact/>
     </>
   );
 }

@@ -3,6 +3,7 @@ import Button from "../components/Button";
 import imageUrl from "../../../public/contactUs.jpg";
 import imageUrl2 from "../../../public/contact1.jpg";
 import About from "../components/About";
+import FloatingContact from "../components/FloatingContact";
 
 export default function page() {
   const aboutData = {
@@ -88,6 +89,7 @@ export default function page() {
         <hr className="border-2 w-3/4 mx-auto"></hr>
         <About Data={aboutData} visible={false}></About>
       </div>
+      <FloatingContact/>
     </div>
   );
 }

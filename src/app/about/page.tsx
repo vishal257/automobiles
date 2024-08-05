@@ -3,6 +3,7 @@ import Button from "../components/Button";
 import imageUrl from "../../../public/about-banner.jpg";
 import About from "../components/About";
 import randomUrl from "../../../public/banner.jpg"
+import FloatingContact from "../components/FloatingContact";
 
 export default function page() {
   const aboutData1 = {
@@ -37,7 +38,7 @@ export default function page() {
             ABOUT Satyam automobile engineers
           </div>
           <div className="font-extrabold md:text-4xl sm:text-3xl text-lg text-center">
-            95923-48990 • MONDAY - FRIDAY 7:00AM to 5:30PM
+            01886-297885 • MONDAY - FRIDAY 7:00AM to 5:30PM
           </div>
           <div className="pt-4">
             <Button />
@@ -62,6 +63,7 @@ export default function page() {
         <Image src={randomUrl} alt="pic" placeholder="blur" fill sizes="100%" quality={100} style={{objectFit:'cover'}}></Image>
       </div>
       <About Data={aboutData2} visible={true} />
+      <FloatingContact/>
     </div>
   );
 }

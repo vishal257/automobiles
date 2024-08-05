@@ -26,7 +26,7 @@ export default function About({ Data, visible }: Props) {
             <Button />
           </div>
           <div className="uppercase text-2xl font-black text-center">
-            Near Hira Colony, Dholwaha Road, Distt- Hoshiarpur • Punjab, India • 95923-48990
+            Near Hira Colony, Dholwaha Road, Distt- Hoshiarpur • Punjab, India • 01886-297885
           </div>
         </>
       )}
