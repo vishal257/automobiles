@@ -22,7 +22,7 @@ export default function Home() {
           <div>
           Satyam Automobile Engineers, an esteemed auto repair shop located near Hira Colony, has experienced remarkable growth over the past few years. This expansion has allowed the business to extend its operations into several nearby buildings within the neighborhood.
 
-          What sets Satyam Automobile Engineers apart is its dedicated and skilled workforce, comprising 18 talented staff members. This team is the heart of the shop, ensuring that it is always bustling with activity and life. Whether it's routine maintenance or complex repairs, Satyam Automobile Engineers is equipped and ready to service your car with the utmost precision and care.
+          What sets Satyam Automobile Engineers apart is its dedicated and skilled workforce, comprising 18 talented staff members. This team is the heart of the shop, ensuring that it is always bustling with activity and life. Whether its routine maintenance or complex repairs, Satyam Automobile Engineers is equipped and ready to service your car with the utmost precision and care.
           </div>
           <div className="uppercase pt-4">
             <button className="bg-red-800 px-6 py-2 font-bold text-white text-xl hover:bg-red-900">
