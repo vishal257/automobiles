@@ -64,7 +64,7 @@ export default function page() {
         <Image src={randomUrl} alt="pic" placeholder="blur" fill sizes="100%" quality={100} style={{objectFit:'cover'}}></Image>
       </div>
       <About Data={aboutData2} visible={true} />
-      <div className="w-80 h-80 my-2 relative mx-auto">
+      <div className="w-80 h-80 md:my-2 mt-8 mb-2 relative mx-auto">
         <Image
         src={ownerImg}
         alt="owner-img"

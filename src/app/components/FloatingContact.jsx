@@ -16,7 +16,7 @@ const FloatingContact = () => {
             quality={100}
           ></Image>
       </div>
-      <span className="justify-center">Chat with me</span>
+      <span className="justify-center font-bold text-gray-800">Chat with me</span>
     </a>
       </div>
   )
