@@ -13,10 +13,10 @@ export default function Footer() {
         style={{ objectFit: "cover", objectPosition:'center 80%'}}
         quality={100}
       ></Image>
-      <div className="flex md:gap-24 gap-12 rsm:px-4 md:tracking-wider justify-center leading-10 rsm:leading-6 rsm:tracking-tight rsm:text-sm absolute">
+      <div className="flex md:gap-24 sm:gap-12 gap-4 rsm:px-4 md:tracking-wider justify-center leading-10 rsm:leading-6 rsm:tracking-tight rsm:text-sm absolute">
         <div className="h-full">
           <div className="text-stone-300">Quick Links</div>
-          <ul className="text-white">
+          <ul className="text-white rsm:text-xs">
             <li>
               <Link href="/about">About Us</Link>
             </li>
@@ -33,7 +33,7 @@ export default function Footer() {
         </div>
         <div className="h-full">
           <div className="text-stone-300">Contact Us</div>
-          <ul className="text-yellow-500">
+          <ul className="text-yellow-500 rsm:text-xs">
             <li>
               <Link href="mailto:satyam.autoworks@proton.me">satyam.autoworks@proton.me</Link>
             </li>
