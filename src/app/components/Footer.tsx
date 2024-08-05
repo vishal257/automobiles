@@ -38,7 +38,7 @@ export default function Footer() {
               <Link href="mailto:satyam@gmail.com">satyam@gmail.com</Link>
             </li>
             <li>
-              <Link href="tel:123456">3522525235</Link>
+              <Link href="tel:9592348990">95923-48990</Link>
             </li>
             <li>7:00AM – 5:30PM MONDAY – FRIDAY</li>
           </ul>

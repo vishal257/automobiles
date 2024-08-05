@@ -38,8 +38,7 @@ export default function Testimonial() {
             <h1 className="uppercase font-black text-3xl">Where we are</h1>
             <hr className="border-2 border-slate-100 w-11/12 mx-auto"></hr>
             <div className="">
-              Located in Old Town, we’re right on the Max line, so it’s easy to
-              drop off your car for maintenance, repair or tires while you work.
+              Located Near Hira Colony, Dholwaha Road, Distt- Hoshiarpur • Punjab, India
             </div>
           </div>
           </Link>
@@ -63,8 +62,7 @@ export default function Testimonial() {
             <h1 className="uppercase font-black text-3xl">WHo WE are</h1>
             <hr className="border-2 border-slate-100 w-11/12 mx-auto"></hr>
             <div className="">
-              Located in Old Town, we’re right on the Max line, so it’s easy to
-              drop off your car for maintenance, repair or tires while you work.
+            Satyam Automobile Engineers is proud to be an AAA Approved car repair facility.
             </div>
           </div>
           </Link>
@@ -88,8 +86,7 @@ export default function Testimonial() {
             <h1 className="uppercase font-black text-3xl">WHAT WE DO</h1>
             <hr className="border-2 border-slate-100 w-11/12 mx-auto"></hr>
             <div className="">
-              Located in Old Town, we’re right on the Max line, so it’s easy to
-              drop off your car for maintenance, repair or tires while you work.
+            We promise to provide honest, convenient & quality car repair and maintenance services, with our primary goal being safe, happy customers & long-lasting life and performance for your car.
             </div>
           </div>
           </Link>

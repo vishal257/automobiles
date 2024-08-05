@@ -26,7 +26,7 @@ export default function About({ Data, visible }: Props) {
             <Button />
           </div>
           <div className="uppercase text-2xl font-black text-center">
-            509 NW Everett Street • Portland, OR 97209 • 503-221-2411
+            Near Hira Colony, Dholwaha Road, Distt- Hoshiarpur • Punjab, India • 95923-48990
           </div>
         </>
       )}
