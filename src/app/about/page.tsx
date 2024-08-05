@@ -4,6 +4,7 @@ import imageUrl from "../../../public/about-banner.jpg";
 import About from "../components/About";
 import randomUrl from "../../../public/banner.jpg"
 import FloatingContact from "../components/FloatingContact";
+import ownerImg from "../../../public/Satyam JPG.jpg";
 
 export default function page() {
   const aboutData1 = {
@@ -63,6 +64,18 @@ export default function page() {
         <Image src={randomUrl} alt="pic" placeholder="blur" fill sizes="100%" quality={100} style={{objectFit:'cover'}}></Image>
       </div>
       <About Data={aboutData2} visible={true} />
+      <div className="w-80 h-80 mb-2 relative mx-auto">
+        <Image
+        src={ownerImg}
+        alt="owner-img"
+        // width={80}
+        // height={80}
+        fill
+        quality={100}
+        style={{objectFit:'cover'}}
+        ></Image>
+      </div>
+      <p className="text-center w-full mb-8 font-bold text-2xl">Satyam Sharma</p>
       <FloatingContact/>
     </div>
   );
