@@ -75,7 +75,7 @@ export default function page() {
         style={{objectFit:'cover'}}
         ></Image>
       </div>
-      <p className="text-center w-full mb-8 font-bold text-2xl">Satyam Sharma</p>
+      <p className="text-center w-full mb-8 font-bold text-2xl">Satyam</p>
       <FloatingContact/>
     </div>
   );
