@@ -5,6 +5,7 @@ import About from "../components/About";
 import randomUrl from "../../../public/banner.jpg"
 import FloatingContact from "../components/FloatingContact";
 import ownerImg from "../../../public/Satyam JPG.jpg";
+import person from "../../../public/person.jpeg";
 
 export default function page() {
   const aboutData1 = {
@@ -76,6 +77,28 @@ export default function page() {
         ></Image>
       </div>
       <p className="text-center w-full mb-8 font-bold text-2xl">Satyam</p>
+      <div className="w-80 h-80 md:my-2 mt-8 mb-2 relative mx-auto">
+        <Image
+        src={person}
+        alt="owner-img"
+        // width={80}
+        // height={80}
+        fill
+        quality={100}
+        style={{objectFit:'cover'}}
+        ></Image>
+      </div>
+      <p className="text-center w-full mb-1 font-bold text-2xl">Rajan kumar</p>
+      <p className="text-center w-full mb-4 font-bold text-lg">He is working by last two years as a  senior rigger</p>
+      <p className="text-center mx-auto mb-8 text-md w-9/12"><span className="font-bold">ROLES AND RESPONSIBILITIES:-</span><br/>
+      <div className="flex justify-center text-left">
+        <div>
+          <span className="font-bold">➢</span> Ensuring compliance when working near power lines or lifting personnel.<br/>
+          <span className="font-bold">➢</span> Ensuring the load rigging is performed by a competent rigger.<br/>
+          <span className="font-bold">➢</span> Ensuring precautions are implemented in special lifting rations.
+        </div>
+      </div>
+      </p>
       <FloatingContact/>
     </div>
   );
